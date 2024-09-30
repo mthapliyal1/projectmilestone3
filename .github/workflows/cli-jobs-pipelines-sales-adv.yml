@@ -1,8 +1,7 @@
 name: cli-jobs-pipelines-sales-adv
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 0/12 * * *"
+  schedule:    
   pull_request:
     branches:
       - main
